@@ -1,0 +1,22 @@
+{
+  "name": "apitienda",
+  "version": "1.0.0",
+  "description": "Api para DW udp",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kriz300/apitienda.git"
+  },
+  "author": "Kriz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kriz300/apitienda/issues"
+  },
+  "homepage": "https://github.com/Kriz300/apitienda#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
