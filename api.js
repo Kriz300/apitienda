@@ -5,7 +5,7 @@ var app = express();
 var mongo = require('mongodb');
 var MongoClient = require('mongodb').MongoClient;
 var url = "mongodb://localhost:27017/";
-var dbo,cat,prod,compras,user,carrito;
+var dbo,cat,prod,compras,user;
 var ObjectID = mongo.ObjectID;
 
 MongoClient.connect(url, function(err, db) {
